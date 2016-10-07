@@ -1538,7 +1538,7 @@
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bluebubbels.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="xJL-lq-3Xk">
                                                     <rect key="frame" x="0.0" y="0.0" width="600" height="195"/>
                                                 </imageView>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="white-circle-md.png" translatesAutoresizingMaskIntoConstraints="NO" id="7Jg-h1-zhw">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="default.png" translatesAutoresizingMaskIntoConstraints="NO" id="7Jg-h1-zhw">
                                                     <rect key="frame" x="27" y="51" width="73" height="62"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" enabled="NO" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iSt-Jd-vLC">
@@ -4180,6 +4180,7 @@
         <image name="bubbels2.png" width="450" height="353"/>
         <image name="burgur.png" width="380" height="330"/>
         <image name="chestPain.png" width="340" height="340"/>
+        <image name="default.png" width="500" height="500"/>
         <image name="ear1.png" width="240" height="354"/>
         <image name="eye1.png" width="300" height="300"/>
         <image name="fever1.png" width="256" height="256"/>
@@ -4192,7 +4193,6 @@
         <image name="reminder.png" width="31" height="31"/>
         <image name="signup (1).png" width="150" height="50"/>
         <image name="sore-throat.png" width="105" height="118"/>
-        <image name="white-circle-md.png" width="300" height="300"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="OHe-DQ-OhH"/>

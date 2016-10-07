@@ -69,6 +69,7 @@
 		94821E3A1CBC5182004B6267 /* MainSymptom Table.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94821E391CBC5182004B6267 /* MainSymptom Table.swift */; };
 		94821E3C1CBC51DE004B6267 /* fever switches page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94821E3B1CBC51DE004B6267 /* fever switches page.swift */; };
 		94821E3E1CBC51F1004B6267 /* sourthroatSwitchesPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94821E3D1CBC51F1004B6267 /* sourthroatSwitchesPage.swift */; };
+		949FBF201DA7659E00431733 /* default.png in Resources */ = {isa = PBXBuildFile; fileRef = 949FBF1F1DA7659E00431733 /* default.png */; };
 		94C557C81CE11E2D00244B90 /* ^77EAE98F28A94398BB3621791519BC08D8D34E2B5C2528045A^pimgpsh_fullsize_distr.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94C557C71CE11E2D00244B90 /* ^77EAE98F28A94398BB3621791519BC08D8D34E2B5C2528045A^pimgpsh_fullsize_distr.jpg */; };
 		94C557CA1CE1275E00244B90 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 94C557C91CE1275E00244B90 /* logo.png */; };
 /* End PBXBuildFile section */
@@ -161,6 +162,7 @@
 		94821E391CBC5182004B6267 /* MainSymptom Table.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MainSymptom Table.swift"; sourceTree = "<group>"; };
 		94821E3B1CBC51DE004B6267 /* fever switches page.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "fever switches page.swift"; sourceTree = "<group>"; };
 		94821E3D1CBC51F1004B6267 /* sourthroatSwitchesPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sourthroatSwitchesPage.swift; sourceTree = "<group>"; };
+		949FBF1F1DA7659E00431733 /* default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = default.png; path = ../default.png; sourceTree = "<group>"; };
 		94C557C71CE11E2D00244B90 /* ^77EAE98F28A94398BB3621791519BC08D8D34E2B5C2528045A^pimgpsh_fullsize_distr.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "^77EAE98F28A94398BB3621791519BC08D8D34E2B5C2528045A^pimgpsh_fullsize_distr.jpg"; sourceTree = "<group>"; };
 		94C557C91CE1275E00244B90 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 		9DC74B52F049C434ADF88262 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -196,6 +198,7 @@
 		1842C2D51CAE7D700092DEB3 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				949FBF1F1DA7659E00431733 /* default.png */,
 				18450C091CF0FF6E001DB5FD /* white-circle-md.png */,
 				18B6423E1D09FDAC00118DF1 /* history_Fotor_Fotor.png */,
 				18B642401D09FF3200118DF1 /* lock1.png */,
@@ -479,6 +482,7 @@
 				943F3C581CE287A300FB7FE4 /* login.png in Resources */,
 				184998BE1CB9A1D600FD85BC /* Tooth-blue-icon.png in Resources */,
 				1850E4251CBAF7CD0010C379 /* bluePills.png in Resources */,
+				949FBF201DA7659E00431733 /* default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
