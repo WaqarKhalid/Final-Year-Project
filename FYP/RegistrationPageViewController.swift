@@ -33,10 +33,10 @@ class RegistrationPageViewController: UIViewController, UIPickerViewDataSource, 
         
         inputView.addSubview(doneButton) // add Button to UIView
         
-        doneButton.addTarget(self, action: "doneButton:", forControlEvents: UIControlEvents.TouchUpInside) // set button click event
+        doneButton.addTarget(self, action: #selector(RegistrationPageViewController.doneButton(_:)), forControlEvents: UIControlEvents.TouchUpInside) // set button click event
         
         sender.inputView = inputView
-        datePickerView.addTarget(self, action: Selector("handleDatePicker:"), forControlEvents: UIControlEvents.ValueChanged)
+        datePickerView.addTarget(self, action: #selector(RegistrationPageViewController.handleDatePicker(_:)), forControlEvents: UIControlEvents.ValueChanged)
         
         handleDatePicker(datePickerView) // Set the date on start.
     }

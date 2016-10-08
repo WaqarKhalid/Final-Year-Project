@@ -16,7 +16,7 @@ class firstAid1_textview: UIViewController {
         didSet {
         
             textView.attributedText = text
-            self.automaticallyAdjustsScrollViewInsets = false
+           // self.automaticallyAdjustsScrollViewInsets = false
            // textView.contentOffset = CGPointMake(0, -textView.contentSize.height)
            
         }
@@ -36,14 +36,17 @@ class firstAid1_textview: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-   
+        
+
         // Do any additional setup after loading the view.
     }
     override func viewWillLayoutSubviews() {
-        super.viewWillLayoutSubviews()
-        //start scroll at top of text
         textView.scrollRangeToVisible(NSMakeRange(0, 0))
-    }
+        super.viewWillLayoutSubviews()
+        
+        //start scroll at top of text
+            }
+
 
     
     override func didReceiveMemoryWarning() {

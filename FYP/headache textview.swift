@@ -25,7 +25,7 @@ class headache_textview: UIViewController {
         history = "\n\(date)\n\(text.string)\n"
         print(pathForfile)
         var Error:NSError?
-        var fileManager = NSFileManager.defaultManager()
+        let fileManager = NSFileManager.defaultManager()
         if(!fileManager.fileExistsAtPath(pathForfile)) {
             
             do {
@@ -36,8 +36,8 @@ class headache_textview: UIViewController {
             }
             if(Error==nil) {
                 print("info saved\(history)")
-                var alert = UIAlertController(title: "Alert", message: "Prescription is saved in history,You can see it in history", preferredStyle: .Alert)
-                var action = UIAlertAction(title: "OK", style:.Default, handler: nil)
+                let alert = UIAlertController(title: "Alert", message: "Prescription is saved in history,You can see it in history", preferredStyle: .Alert)
+                let action = UIAlertAction(title: "OK", style:.Default, handler: nil)
                 alert.addAction(action)
                 self.presentViewController(alert, animated: true, completion: nil)
                 
@@ -55,14 +55,14 @@ class headache_textview: UIViewController {
             let string = "\(history)"
             let data = string.dataUsingEncoding(NSUTF8StringEncoding, allowLossyConversion: false)!
             
-            if NSFileManager.defaultManager().fileExistsAtPath(fileurl.path!) {
+            if NSFileManager.defaultManager().fileExistsAtPath(fileurl!.path!) {
                 do {
-                    let fileHandle = try NSFileHandle(forWritingToURL: fileurl)
+                    let fileHandle = try NSFileHandle(forWritingToURL: fileurl!)
                     
                     fileHandle.seekToEndOfFile()
                     fileHandle.writeData(data)
                     fileHandle.closeFile()
-                    var alert = UIAlertController(title: "Alert", message: "Prescription is saved in history,You can see it in history", preferredStyle: .Alert)
+                    let alert = UIAlertController(title: "Alert", message: "Prescription is saved in history,You can see it in history", preferredStyle: .Alert)
                     alert.addAction(UIAlertAction(title: "OK", style:UIAlertActionStyle.Default, handler: nil))
                     self.presentViewController(alert, animated: true, completion: nil)
                 } catch {
@@ -70,7 +70,7 @@ class headache_textview: UIViewController {
                 }
             } else {
                 do {
-                    try data.writeToURL(fileurl, options: .DataWritingAtomic)
+                    try data.writeToURL(fileurl!, options: .DataWritingAtomic)
                     
                 } catch {
                     print("Can't write \(error)")

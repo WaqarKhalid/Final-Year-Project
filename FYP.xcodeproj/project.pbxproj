@@ -404,15 +404,18 @@
 					941394AE1CAD9DDC00D14225 = {
 						CreatedOnToolsVersion = 7.2.1;
 						DevelopmentTeam = EFFP6H68J5;
+						LastSwiftMigration = 0800;
 					};
 					941394C51CAD9DDC00D14225 = {
 						CreatedOnToolsVersion = 7.2.1;
 						DevelopmentTeam = EFFP6H68J5;
+						LastSwiftMigration = 0800;
 						TestTargetID = 941394AE1CAD9DDC00D14225;
 					};
 					941394D01CAD9DDC00D14225 = {
 						CreatedOnToolsVersion = 7.2.1;
 						DevelopmentTeam = EFFP6H68J5;
+						LastSwiftMigration = 0800;
 						TestTargetID = 941394AE1CAD9DDC00D14225;
 					};
 				};
@@ -726,6 +729,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "FYP/FYP-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
@@ -743,6 +747,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Waqar-Khalid.FYP";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "FYP/FYP-Bridging-Header.h";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};
@@ -754,6 +759,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Waqar-Khalid.FYPTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FYP.app/FYP";
 			};
 			name = Debug;
@@ -766,6 +772,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Waqar-Khalid.FYPTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FYP.app/FYP";
 			};
 			name = Release;
@@ -777,6 +784,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Waqar-Khalid.FYPUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 				TEST_TARGET_NAME = FYP;
 				USES_XCTRUNNER = YES;
 			};
@@ -789,6 +797,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Waqar-Khalid.FYPUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 				TEST_TARGET_NAME = FYP;
 				USES_XCTRUNNER = YES;
 			};
